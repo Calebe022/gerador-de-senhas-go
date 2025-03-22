@@ -18,7 +18,6 @@ func main() {
 	fmt.Printf("Sua senha gerada é: %s\n", senha)
 }
 
-// Função para gerar senha
 func gerarSenha(tamanho int, charset string) string {
 	rand.Seed(time.Now().UnixNano())
 
